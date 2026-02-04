@@ -1,0 +1,428 @@
+{
+    "anatomy": [
+        {
+            "id": "neck_cervical",
+            "region": "upper_body",
+            "name": "Neck Extensors (Cervical Spine)"
+        },
+        {
+            "id": "trapezius",
+            "region": "upper_body",
+            "name": "Traps (Upper Back & Neck Base)"
+        },
+        {
+            "id": "deltoids",
+            "region": "upper_body",
+            "name": "Deltoids (Shoulder Cap)"
+        },
+        {
+            "id": "rotator_cuff",
+            "region": "upper_body",
+            "name": "Rotator Cuff (Deep Shoulder Stabilizers)"
+        },
+        {
+            "id": "triceps",
+            "region": "upper_body",
+            "name": "Triceps (Back of Arm)"
+        },
+        {
+            "id": "biceps",
+            "region": "upper_body",
+            "name": "Biceps (Front of Arm)"
+        },
+        {
+            "id": "forearms",
+            "region": "upper_body",
+            "name": "Forearms & Wrists"
+        },
+        {
+            "id": "pectorals",
+            "region": "torso",
+            "name": "Pectorals (Chest)"
+        },
+        {
+            "id": "serratus_anterior",
+            "region": "torso",
+            "name": "Serratus (Side Ribs / Boxer's Muscle)"
+        },
+        {
+            "id": "latissimus_dorsi",
+            "region": "torso",
+            "name": "Lats (Side Back / Wings)"
+        },
+        {
+            "id": "rhomboids",
+            "region": "torso",
+            "name": "Rhomboids (Between Shoulder Blades)"
+        },
+        {
+            "id": "erector_spinae",
+            "region": "torso",
+            "name": "Erector Spinae (Spinal Extensors)"
+        },
+        {
+            "id": "rectus_abdominis",
+            "region": "torso",
+            "name": "Rectus Abdominis (Six-Pack)"
+        },
+        {
+            "id": "obliques",
+            "region": "torso",
+            "name": "Obliques (Side Abs)"
+        },
+        {
+            "id": "transverse_abdominis",
+            "region": "torso",
+            "name": "TVA (Deep Core / Corset)"
+        },
+        {
+            "id": "psoas_major",
+            "region": "hips",
+            "name": "Psoas (Hip Flexors)"
+        },
+        {
+            "id": "gluteus_maximus",
+            "region": "hips",
+            "name": "Glute Max (Buttocks)"
+        },
+        {
+            "id": "gluteus_medius",
+            "region": "hips",
+            "name": "Glute Med (Side Hip Stabilizer)"
+        },
+        {
+            "id": "piriformis",
+            "region": "hips",
+            "name": "Piriformis (Deep Hip Rotator)"
+        },
+        {
+            "id": "pelvic_floor",
+            "region": "hips",
+            "name": "Pelvic Floor (Root Lock)"
+        },
+        {
+            "id": "quadriceps",
+            "region": "legs",
+            "name": "Quads (Front Thigh)"
+        },
+        {
+            "id": "hamstrings",
+            "region": "legs",
+            "name": "Hamstrings (Back Thigh)"
+        },
+        {
+            "id": "adductors",
+            "region": "legs",
+            "name": "Adductors (Inner Thigh)"
+        },
+        {
+            "id": "abductors",
+            "region": "legs",
+            "name": "Abductors / IT Band (Outer Thigh)"
+        },
+        {
+            "id": "knees",
+            "region": "legs",
+            "name": "Knee Stabilizers"
+        },
+        {
+            "id": "gastrocnemius",
+            "region": "legs",
+            "name": "Calves (Upper)"
+        },
+        {
+            "id": "soleus",
+            "region": "legs",
+            "name": "Soleus (Lower Calf)"
+        },
+        {
+            "id": "tibialis_anterior",
+            "region": "legs",
+            "name": "Shins"
+        },
+        {
+            "id": "feet_arches",
+            "region": "legs",
+            "name": "Plantar Fascia / Arches"
+        }
+    ],
+    "categories": [
+        {
+            "id": "standing",
+            "name": "Standing",
+            "Icon Concept": "\ud83e\uddcd Two feet on ground",
+            "description": "Foundation poses (Warrior, Triangle).",
+            "lucide_icon": "Accessibility"
+        },
+        {
+            "id": "seated",
+            "name": "Seated",
+            "Icon Concept": "\ud83e\uddd8 Person sitting",
+            "description": "Grounded poses (Lotus, Staff).",
+            "lucide_icon": "Armchair"
+        },
+        {
+            "id": "supine",
+            "name": "Supine",
+            "Icon Concept": "\ud83d\udecc Person lying back",
+            "description": "Face up (Savasana, Bridge).",
+            "lucide_icon": "Bed"
+        },
+        {
+            "id": "prone",
+            "name": "Prone",
+            "Icon Concept": "\ud83d\udc0d Person lying front",
+            "description": "Face down (Cobra, Locust).",
+            "lucide_icon": "ChevronDown"
+        },
+        {
+            "id": "inversion",
+            "name": "Inversion",
+            "Icon Concept": "\ud83d\ude43 Upside down",
+            "description": "Head below heart (Down Dog, Headstand).",
+            "lucide_icon": "RefreshCw"
+        },
+        {
+            "id": "arm-balance",
+            "name": "Arm Balance",
+            "Icon Concept": "\ud83d\udcaa Hands only",
+            "description": "Weight on hands (Crow, Side Plank).",
+            "lucide_icon": "BicepsFlexed"
+        },
+        {
+            "id": "backbend",
+            "name": "Backbend",
+            "Icon Concept": "\ud83c\udff9 Arched spine",
+            "description": "Heart openers (Camel, Wheel).",
+            "lucide_icon": "Activity"
+        },
+        {
+            "id": "twist",
+            "name": "Twist",
+            "Icon Concept": "\ud83c\udf00 Spiral arrow",
+            "description": "Spinal rotation (Seated Twist).",
+            "lucide_icon": "RotateCw"
+        },
+        {
+            "id": "forward-bend",
+            "name": "Forward Bend",
+            "Icon Concept": "\ud83d\ude47 Folded over",
+            "description": "Posterior stretch (Forward Fold).",
+            "lucide_icon": "ChevronDown"
+        },
+        {
+            "id": "restorative",
+            "name": "Restorative",
+            "Icon Concept": "\ud83c\udf19 Moon/Pillow",
+            "description": "Passive, supported holds.",
+            "lucide_icon": "Moon"
+        },
+        {
+            "id": "hip-opener",
+            "name": "Hip Opener",
+            "Icon Concept": "\ud83e\uddb4 Pelvis highlighted",
+            "description": "Deep release (Pigeon, Lizard).",
+            "lucide_icon": "Activity"
+        },
+        {
+            "id": "core",
+            "name": "Core",
+            "Icon Concept": "\ud83d\udd25 Flame",
+            "description": "Abdominal focus (Boat).",
+            "lucide_icon": "Flame"
+        }
+    ],
+    "chakras": [
+        {
+            "id": "muladhara",
+            "name": "Muladhara (Root)",
+            "location": "Base of spine",
+            "theme": "Grounding, Stability, Safety."
+        },
+        {
+            "id": "svadishtana",
+            "name": "Svadhisthana (Sacral)",
+            "location": "Pelvis/Hips",
+            "theme": "Creativity, Fluidity, Emotion."
+        },
+        {
+            "id": "manipura",
+            "name": "Manipura (Solar Plexus)",
+            "location": "Navel/Core",
+            "theme": "Power, Will, Transformation."
+        },
+        {
+            "id": "anahata",
+            "name": "Anahata (Heart)",
+            "location": "Chest",
+            "theme": "Love, Compassion, Connection."
+        },
+        {
+            "id": "vishuddha",
+            "name": "Vishuddha (Throat)",
+            "location": "Throat",
+            "theme": "Communication, Truth."
+        },
+        {
+            "id": "ajna",
+            "name": "Ajna (Third Eye)",
+            "location": "Forehead",
+            "theme": "Intuition, Wisdom."
+        },
+        {
+            "id": "sahasrara",
+            "name": "Sahasrara (Crown)",
+            "location": "Top of Head",
+            "theme": "Spirituality, Enlightenment."
+        }
+    ],
+    "difficulty_levels": [
+        {
+            "id": "beginner",
+            "name": "Beginner",
+            "description": "Accessible to almost everyone; foundational mechanics."
+        },
+        {
+            "id": "intermediate",
+            "name": "Intermediate",
+            "description": "Requires developed strength, flexibility, or balance."
+        },
+        {
+            "id": "advanced",
+            "name": "Advanced",
+            "description": "Requires high degree of mastery; high risk if done poorly."
+        }
+    ],
+    "drishtis": [
+        {
+            "id": "nose-tip",
+            "name": "Nose Tip",
+            "sanskrit": "Nasagrai",
+            "examples": "Chaturanga, Up Dog, Forward Folds"
+        },
+        {
+            "id": "third-eye",
+            "name": "Third Eye",
+            "sanskrit": "Bhrumadhya",
+            "examples": "Fish Pose, Meditation, Reverse Warrior"
+        },
+        {
+            "id": "navel",
+            "name": "Navel",
+            "sanskrit": "Nabhi Chakra",
+            "examples": "Downward Dog"
+        },
+        {
+            "id": "hand",
+            "name": "Hand / Fingertips",
+            "sanskrit": "Hastagrai",
+            "examples": "Triangle, Warrior II"
+        },
+        {
+            "id": "toes",
+            "name": "Toes",
+            "sanskrit": "Padayoragrai",
+            "examples": "Seated Forward Folds (Janu Sirsasana)"
+        },
+        {
+            "id": "thumbs",
+            "name": "Thumbs",
+            "sanskrit": "Angustha",
+            "examples": "Warrior I, Chair Pose, Sun Salutation A (Mountain)"
+        },
+        {
+            "id": "upward",
+            "name": "Upward / Sky",
+            "sanskrit": "Urdhva",
+            "examples": "Warrior II (Reverse), Half Moon"
+        },
+        {
+            "id": "far-right",
+            "name": "Far Right",
+            "sanskrit": "Parsva",
+            "examples": "Spinal Twists"
+        },
+        {
+            "id": "far-left",
+            "name": "Far Left",
+            "sanskrit": "Parsva",
+            "examples": "Spinal Twists"
+        }
+    ],
+    "props": [
+        {
+            "id": "block",
+            "name": "Block",
+            "Icon": "\ud83e\uddf1 Cube",
+            "lucide_icon": "Box"
+        },
+        {
+            "id": "strap",
+            "name": "Strap",
+            "Icon": "\u27b0 Belt/Loop",
+            "lucide_icon": "Circle"
+        },
+        {
+            "id": "bolster",
+            "name": "Bolster",
+            "Icon": "\ud83c\udf2d Long Pillow",
+            "lucide_icon": "RectangleHorizontal"
+        },
+        {
+            "id": "blanket",
+            "name": "Blanket",
+            "Icon": "\ud83d\udfe6 Folded Square",
+            "lucide_icon": "Square"
+        },
+        {
+            "id": "wall",
+            "name": "Wall",
+            "Icon": "\ud83e\uddf1 Vertical Line",
+            "lucide_icon": "SeparatorVertical"
+        },
+        {
+            "id": "chair",
+            "name": "Chair",
+            "Icon": "\ud83e\ude91 Chair",
+            "lucide_icon": "Armchair"
+        },
+        {
+            "id": "sandbag",
+            "name": "Sandbag",
+            "Icon": "\ud83d\udc5c Heavy Bag",
+            "lucide_icon": "ShoppingBag"
+        },
+        {
+            "id": "wheel",
+            "name": "Wheel",
+            "Icon": "\u2b55 Yoga Wheel",
+            "lucide_icon": "Circle"
+        }
+    ],
+    "assist_types": [
+        { 
+            "id": "grounding", 
+            "name": "Grounding", 
+            "description": "Helping the student feel stable and heavy.", 
+            "lucide_icon": "Anchor" 
+        },
+        { 
+            "id": "alignment", 
+            "name": "Alignment", 
+            "description": "Correcting geometry or lines of energy.", 
+            "lucide_icon": "Ruler" 
+        },
+        { 
+            "id": "deepening", 
+            "name": "Deepening", 
+            "description": "Increasing the intensity of the stretch.", 
+            "lucide_icon": "ChevronsDown" 
+        },
+        { 
+            "id": "traction", 
+            "name": "Traction", 
+            "description": "Creating space in the joints (pulling apart).", 
+            "lucide_icon": "MoveDiagonal" 
+        }
+    ]
+}

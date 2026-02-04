@@ -1,0 +1,26 @@
+Sutra: The AI-Powered Architecture for Yoga Teacher Training
+Our strategy for Sutra (or Prana) focuses on disrupting the Yoga Teacher Training (YTT) market by transitioning from static, often erroneous paper manuals to a dynamic, AI-powered "Lead Trainer" platform [1]. We are positioning the product as a B2B white-label solution designed specifically for 200h/300h YTT programs, providing students with a tool that grades their cueing, sequencing, and anatomical alignment against their specific school’s lineage [1].
+Market Opportunity and Positioning
+We are entering a rapidly expanding market. The global wellness app market was valued at 11.27billionin2024∗∗,whiletheyogamarketspecificallyisprojectedtoreach∗∗200.35 billion by 2030 [2, 3]. Notably, the 18–29 age group is a high-growth segment that increasingly relies on mobile platforms for fitness and mental well-being [4]. By targeting YTT participants, we are capturing a high-intent audience within a segment where paid in-app purchases account for 66.6% of revenue [5]. Unlike generic competitors like Calm or Headspace, our tool focuses on the technical and educational "Source of Truth" required for professional certification [1, 6].
+The "Zen Tech" Data Architecture
+The core differentiator of the platform is its deterministic data layer [1]. Rather than relying on unpredictable LLM responses, we utilize a strictly typed YAML/Markdown CMS [1, 7]. This "Source of Truth" ensures every pose follows a rigorous logic:
+• Weighted Anatomy: The AI distinguishes between Primary muscles (doing >50% of the work) and Secondary stabilizers [7, 8]. This allows for high-fidelity grading and "Elevated Coaching" feedback [7, 9].
+• Biomechanical North Star: Every pose has a non-negotiable alignment principle (e.g., in Downward Dog, axial extension/spine length is prioritized over straight legs) [10, 11].
+• Semantic Goals: The tool captures the "vibe" or soul of a pose (e.g., "Structural Integration") to ensure students learn the philosophy alongside the physics [10].
+• Tactile & Verbal Coaching: The system includes structured data for hands-on assists and a framework for verbal cueing, including "forbidden words" to avoid and "elevated vocabulary" to adopt [10, 12, 13].
+AI-Driven "Compare & Critique" Engine
+The platform acts as a co-teacher by using a Record -> Transcribe -> Critique loop [9, 14].
+1. Audio Ingestion: Students record themselves practice-teaching [9].
+2. Transcription: Whisper API converts speech to text [9].
+3. Contextual Grading: The AI compares the transcript against the school’s specific manual and our master YAML constants [9].
+4. Feedback Loop: The student receives a score (0-100), safety alerts for contraindications, and specific alignment feedback [9].
+B2B Strategy and School Integration
+For our first partner, we will ingest their 250-page manual using RAG (Retrieval-Augmented Generation) for supplemental knowledge while maintaining our structured architecture as the ground truth to filter out any manual errors in their text.
+• White-Label Customization: Schools can apply their branding and use "Content Overrides" to patch the master data, ensuring the AI teaches their specific pelvic alignment or sequencing preferences without forking the entire codebase [15].
+• Engagement Tracking: Lead trainers can use the tool to manage batches, assign homework, and monitor student engagement and progress via an AI-driven dashboard.
+Business Model and Growth
+Our financial strategy involves a hybrid B2B2C model:
+1. Phase 1 (B2B): A one-time flat fee for school onboarding and data ingestion, followed by a per-student fee for the duration of the YTT batch.
+2. Phase 2 (B2C): Upon graduation, we transition the student into a direct subscriber. This expands the Lifetime Value (LTV) as the tool evolves from a training aid into a professional sequencing and safety assistant for their teaching career.
+Immediate Roadmap
+We are currently moving toward a "Demo" feature that showcases the full loop (Record -> Whisper -> AI Critique -> UI visualization) for a single foundational sequence, such as Sun Salutation B [14]. This will prove the value of our humanoid visualization—which highlights muscles in the UI based on the primary and secondary tags in our data—to prospective school owners.

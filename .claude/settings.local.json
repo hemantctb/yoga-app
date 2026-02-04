@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:yoga-production-c521.up.railway.app)",
+      "Bash(ls:*)",
+      "Bash(comm:*)",
+      "Bash(pandoc:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/convert-asanas.sh:*)",
+      "Bash(node ./scripts/generate-manifest.js:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(npm run dev:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(tail:*)",
+      "Bash(for file in *.md)",
+      "Bash(do sed -i '' 's/\\\\\\\\#/#/g' \"$file\")",
+      "Bash(done)",
+      "Bash(tree:*)",
+      "Bash(npm run test:e2e:*)",
+      "Read(//tmp/**)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(node -e:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Yoga app with asana library and cueing practice\n\n- Next.js app with asana library featuring 50+ poses\n- Sanskrit names, categories, and detailed cueing instructions\n- Search and filter functionality for poses\n- AI-powered cueing evaluation feature\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ],
+    "additionalDirectories": [
+      "/Users/hemant/Documents/Personal/projects/yoga-app/app/app/asanas/[id]"
+    ]
+  }
+}

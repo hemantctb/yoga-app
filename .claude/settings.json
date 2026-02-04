@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(do sed -i '' '/^# [A-Z]/d' \"$file\")",
+      "Bash(git init:*)"
+    ]
+  }
+}

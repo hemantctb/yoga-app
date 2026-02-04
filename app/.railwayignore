@@ -1,0 +1,10 @@
+# Dependencies (Railway will install fresh)
+node_modules
+.next
+
+# Misc
+.DS_Store
+README.md
+playwright-report
+test-results
+tests

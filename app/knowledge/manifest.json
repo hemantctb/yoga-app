@@ -1,0 +1,880 @@
+{
+    "poses": [
+        {
+            "id": "arm-pressure-pose",
+            "title": "Arm Pressure Pose / Shoulder-Pressing Pose",
+            "category": [
+                "arm-balance",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "bharadvajasana",
+            "title": "Bharadvāja's Pose",
+            "category": [
+                "seated",
+                "twist"
+            ]
+        },
+        {
+            "id": "big-toe-pose",
+            "title": "Big Toe Pose",
+            "category": [
+                "standing",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "both-big-toes-pose",
+            "title": "Both Big Toes Pose",
+            "category": [
+                "seated",
+                "arm-balance",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "bound-hand-headstand-a",
+            "title": "Bound Hand Headstand A",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "bound-hand-headstand-b",
+            "title": "Bound Hand Headstand B",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "bound-hand-headstand-c",
+            "title": "Bound Hand Headstand C",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "bound-hand-headstand-d",
+            "title": "Bound Hand Headstand D",
+            "category": [
+                "inversion",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "bound-lotus",
+            "title": "Bound Lotus",
+            "category": [
+                "seated",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "bow-pose",
+            "title": "Bow Pose",
+            "category": [
+                "prone",
+                "backbend"
+            ]
+        },
+        {
+            "id": "bridge-pose",
+            "title": "Bridge Pose",
+            "category": [
+                "backbend"
+            ]
+        },
+        {
+            "id": "butterfly",
+            "title": "Butterfly",
+            "category": [
+                "seated"
+            ]
+        },
+        {
+            "id": "camel-pose",
+            "title": "Camel Pose",
+            "category": [
+                "backbend"
+            ]
+        },
+        {
+            "id": "cat-cow-pose",
+            "title": "Cat-Cow Pose",
+            "category": [
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "chair-pose",
+            "title": "Chair Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "chaturanga",
+            "title": "Four-Limbed Staff Pose",
+            "category": [
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "childs-pose",
+            "title": "Child's Pose",
+            "category": [
+                "restorative"
+            ]
+        },
+        {
+            "id": "cobra-pose",
+            "title": "Cobra Pose",
+            "category": [
+                "backbend"
+            ]
+        },
+        {
+            "id": "cow-face-pose-a",
+            "title": "Cow Face Pose A",
+            "category": [
+                "seated",
+                "hip-opener",
+                "shoulder-opener"
+            ]
+        },
+        {
+            "id": "cow-face-pose-b",
+            "title": "Cow Face Pose B",
+            "category": [
+                "seated",
+                "hip-opener",
+                "shoulder-opener",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "cow-face-pose-c",
+            "title": "Cow Face Pose C",
+            "category": [
+                "seated",
+                "hip-opener",
+                "shoulder-opener",
+                "twist"
+            ]
+        },
+        {
+            "id": "crocodile-pose",
+            "title": "Crocodile Pose",
+            "category": [
+                "prone",
+                "backbend",
+                "core"
+            ]
+        },
+        {
+            "id": "crow-pose",
+            "title": "Crow Pose",
+            "category": [
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "dandasana",
+            "title": "Staff Pose",
+            "category": [
+                "seated"
+            ]
+        },
+        {
+            "id": "downward-dog",
+            "title": "Downward Facing Dog",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "ear-pressure-pose",
+            "title": "Ear Pressure Pose",
+            "category": [
+                "inversion",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "eagle-pose",
+            "title": "Eagle Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "embryo-in-the-womb-pose",
+            "title": "Embryo in the Womb Pose",
+            "category": [
+                "seated",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "embryo-pose",
+            "title": "Embryo Pose",
+            "category": [
+                "inversion",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "extended-hand-to-big-toe-pose",
+            "title": "Extended Hand to Big Toe Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "extended-side-angle",
+            "title": "Extended Side Angle Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "extended-triangle",
+            "title": "Extended Triangle Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "firefly-pose-a",
+            "title": "Firefly Pose A",
+            "category": [
+                "arm-balance",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "firefly-pose-b",
+            "title": "Firefly Pose B",
+            "category": [
+                "arm-balance",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "firefly-pose-c",
+            "title": "Firefly Pose C",
+            "category": [
+                "arm-balance",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "fish-pose",
+            "title": "Fish Pose",
+            "category": [
+                "backbend",
+                "supine"
+            ]
+        },
+        {
+            "id": "frog-pose-ii",
+            "title": "Frog Pose II",
+            "category": [
+                "prone",
+                "backbend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "half-bound-lotus-forward-bend",
+            "title": "Half Bound Lotus Forward Bend",
+            "category": [
+                "seated",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "half-bound-lotus-forward-fold",
+            "title": "Half Bound Lotus Intense Stretch",
+            "category": [
+                "standing",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "half-moon-pose",
+            "title": "Half Moon Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "hands-under-feet-pose",
+            "title": "Hands Under Feet Pose",
+            "category": [
+                "standing",
+                "forward-bend",
+                "inversion"
+            ]
+        },
+        {
+            "id": "happy-baby",
+            "title": "Happy Baby Pose",
+            "category": [
+                "supine"
+            ]
+        },
+        {
+            "id": "head-to-knee-pose",
+            "title": "Head-to-Knee Pose",
+            "category": [
+                "seated",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "headstand",
+            "title": "Headstand",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "heron-pose",
+            "title": "Heron Pose",
+            "category": [
+                "seated",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "himalayan-goose-pose",
+            "title": "Himalayan Goose Pose",
+            "category": [
+                "inversion",
+                "arm-balance",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "horse-face-pose",
+            "title": "Horse Face Pose",
+            "category": [
+                "seated",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "intense-stretched-legs-pose",
+            "title": "Intense Stretched Legs Pose",
+            "category": [
+                "supine",
+                "core"
+            ]
+        },
+        {
+            "id": "iron-bar-pose",
+            "title": "Iron Bar Pose",
+            "category": [
+                "kneeling",
+                "lateral-stretch"
+            ]
+        },
+        {
+            "id": "little-thunderbolt-pose",
+            "title": "Little Thunderbolt Pose",
+            "category": [
+                "kneeling",
+                "backbend"
+            ]
+        },
+        {
+            "id": "lizard-pose",
+            "title": "Lizard Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "locust-pose",
+            "title": "Locust Pose",
+            "category": [
+                "prone"
+            ]
+        },
+        {
+            "id": "lotus-pose",
+            "title": "Lotus Pose",
+            "category": [
+                "seated",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "low-lunge",
+            "title": "Low Lunge",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "marichyasana-a",
+            "title": "Marichi's Pose A",
+            "category": [
+                "seated",
+                "forward-bend",
+                "twist"
+            ]
+        },
+        {
+            "id": "marichyasana-b",
+            "title": "Marichi's Pose B",
+            "category": [
+                "seated",
+                "forward-bend",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "marichyasana-c",
+            "title": "Marichi's Pose C",
+            "category": [
+                "seated",
+                "twist",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "marichyasana-d",
+            "title": "Marichi's Pose D",
+            "category": [
+                "seated",
+                "twist",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "mountain-pose",
+            "title": "Mountain Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "noose-pose",
+            "title": "Noose Pose",
+            "category": [
+                "standing",
+                "twist",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "open-hand-headstand-a",
+            "title": "Open Hand Headstand A",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "open-hand-headstand-b",
+            "title": "Open Hand Headstand B",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "open-hand-headstand-c",
+            "title": "Open Hand Headstand C",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "peacock-pose",
+            "title": "Peacock Pose",
+            "category": [
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "peacock-tail-pose",
+            "title": "Peacock Tail Pose",
+            "category": [
+                "inversion",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "plank-pose",
+            "title": "Plank Pose",
+            "category": [
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "puppy-pose",
+            "title": "Puppy Pose",
+            "category": [
+                "prone"
+            ]
+        },
+        {
+            "id": "pyramid-pose",
+            "title": "Pyramid Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "reclining-angle-pose",
+            "title": "Reclining Angle Pose",
+            "category": [
+                "supine",
+                "hip-opener",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "reclining-big-toe-pose-a",
+            "title": "Reclining Big Toe Pose A",
+            "category": [
+                "supine",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "reclining-big-toe-pose-b",
+            "title": "Reclining Big Toe Pose B",
+            "category": [
+                "supine",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "reclining-tortoise-pose",
+            "title": "Reclining Tortoise Pose",
+            "category": [
+                "seated",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "revolved-side-angle-pose",
+            "title": "Revolved Side Angle Pose",
+            "category": [
+                "standing",
+                "twist",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "revolved-triangle",
+            "title": "Revolved Triangle Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "rooster-pose",
+            "title": "Rooster Pose",
+            "category": [
+                "arm-balance",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "scales-pose",
+            "title": "Scales Pose",
+            "category": [
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "paschimottanasana",
+            "title": "Seated Forward Fold",
+            "category": [
+                "seated",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "shoulderstand",
+            "title": "Shoulderstand",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "side-bow-pose",
+            "title": "Side Bow Pose",
+            "category": [
+                "prone",
+                "backbend",
+                "twist"
+            ]
+        },
+        {
+            "id": "side-plank",
+            "title": "Side Plank",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "sleeping-elevated-vajras-pose-a",
+            "title": "Sleeping Elevated Vajra's Pose A",
+            "category": [
+                "supine",
+                "backbend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "sleeping-elevated-vajras-pose-b",
+            "title": "Sleeping Elevated Vajra's Pose B",
+            "category": [
+                "supine",
+                "backbend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "sleeping-thunderbolt-pose",
+            "title": "Sleeping Thunderbolt Pose",
+            "category": [
+                "kneeling",
+                "backbend",
+                "supine"
+            ]
+        },
+        {
+            "id": "sphinx-pose",
+            "title": "Sphinx Pose",
+            "category": [
+                "prone"
+            ]
+        },
+        {
+            "id": "standing-forward-bend",
+            "title": "Standing Forward Bend",
+            "category": [
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "three-limbed-forward-bend",
+            "title": "Three-Limbed Forward Bend",
+            "category": [
+                "seated",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "tortoise-pose",
+            "title": "Tortoise Pose",
+            "category": [
+                "seated",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "tree-pose",
+            "title": "Tree Pose",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "two-feet-behind-head-pose",
+            "title": "Two Feet Behind the Head Pose",
+            "category": [
+                "seated",
+                "hip-opener",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "upward-facing-dog",
+            "title": "Upward Facing Dog",
+            "category": [
+                "backbend"
+            ]
+        },
+        {
+            "id": "upward-facing-forward-bend",
+            "title": "Upward Facing Forward Bend",
+            "category": [
+                "seated",
+                "forward-bend",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "upward-lotus",
+            "title": "Upward Lotus",
+            "category": [
+                "inversion",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "upward-plank-pose",
+            "title": "Upward Plank Pose",
+            "category": [
+                "arm-balance",
+                "backbend"
+            ]
+        },
+        {
+            "id": "warrior-1",
+            "title": "Warrior I",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "warrior-2",
+            "title": "Warrior II",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "warrior-3",
+            "title": "Warrior III",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "wheel-pose",
+            "title": "Wheel Pose",
+            "category": [
+                "backbend"
+            ]
+        },
+        {
+            "id": "wide-angle-seated-forward-fold",
+            "title": "Wide Angle Seated Forward Fold",
+            "category": [
+                "seated",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "wide-leg-forward-fold",
+            "title": "Wide Leg Forward Fold",
+            "category": [
+                "standing",
+                "forward-bend",
+                "inversion"
+            ]
+        },
+        {
+            "id": "yoga-sleep-pose",
+            "title": "Yoga Sleep Pose",
+            "category": [
+                "supine",
+                "hip-opener",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "malasana",
+            "title": "Garland Pose / Yogi Squat",
+            "category": [
+                "standing",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "savasana",
+            "title": "Corpse Pose",
+            "category": [
+                "restorative",
+                "supine"
+            ]
+        },
+        {
+            "id": "pigeon-pose",
+            "title": "Half Pigeon Pose",
+            "category": [
+                "seated",
+                "hip-opener",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "halasana",
+            "title": "Plow Pose",
+            "category": [
+                "inversion",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "sukhasana",
+            "title": "Easy Pose / Cross-Legged",
+            "category": [
+                "seated",
+                "restorative"
+            ]
+        },
+        {
+            "id": "navasana",
+            "title": "Boat Pose",
+            "category": [
+                "seated",
+                "core"
+            ]
+        },
+        {
+            "id": "matsyendrasana",
+            "title": "Half Lord of the Fishes Pose",
+            "category": [
+                "seated",
+                "twist"
+            ]
+        },
+        {
+            "id": "one-foot-behind-head-pose-a",
+            "title": "One Foot Behind the Head Pose A",
+            "category": [
+                "seated",
+                "hip-opener",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "one-foot-behind-head-pose-b",
+            "title": "One Foot Behind the Head Pose B",
+            "category": [
+                "seated",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "one-foot-behind-head-pose-c",
+            "title": "One Foot Behind the Head Pose C",
+            "category": [
+                "seated",
+                "hip-opener",
+                "arm-balance"
+            ]
+        }
+    ]
+}
