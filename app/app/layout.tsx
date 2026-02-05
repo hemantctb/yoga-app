@@ -15,13 +15,13 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
-  title: 'Sutra | AI-Powered Yoga Teacher Training',
-  description: 'Master your yoga cueing with AI-powered feedback. Record, practice, and perfect your teaching skills.',
-  keywords: ['yoga', 'teacher training', 'cueing', 'AI', 'asana', 'practice'],
+  title: 'Sutra | The Smart Assistant for the Path of Yoga',
+  description: 'The digital operating system that honors ancient yoga lineage with modern techniques. AI-powered tools for yoga schools and personalized feedback for students.',
+  keywords: ['yoga', 'teacher training', 'cueing', 'AI', 'asana', 'practice', 'yoga lineage', 'white-label yoga app', 'yoga school software'],
   authors: [{ name: 'Sutra' }],
   openGraph: {
-    title: 'Sutra | AI-Powered Yoga Teacher Training',
-    description: 'Master your yoga cueing with AI-powered feedback',
+    title: 'Sutra | The Smart Assistant for the Path of Yoga',
+    description: 'Bridging ancient tradition and modern intelligence for yoga students and schools.',
     type: 'website',
   },
 }

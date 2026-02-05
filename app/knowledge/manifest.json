@@ -875,6 +875,325 @@
                 "hip-opener",
                 "arm-balance"
             ]
+        },
+        {
+            "id": "hanumanasana",
+            "title": "Monkey Pose / Full Splits",
+            "category": [
+                "seated",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "king-pigeon-pose",
+            "title": "One-Legged King Pigeon Pose",
+            "category": [
+                "seated",
+                "backbend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "crane-pose",
+            "title": "Crane Pose",
+            "category": [
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "wild-thing",
+            "title": "Wild Thing",
+            "category": [
+                "backbend",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "reverse-warrior",
+            "title": "Reverse Warrior",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "humble-warrior",
+            "title": "Humble Warrior",
+            "category": [
+                "standing",
+                "forward-bend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "handstand",
+            "title": "Handstand",
+            "category": [
+                "inversion",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "side-crow-pose",
+            "title": "Side Crow Pose",
+            "category": [
+                "arm-balance",
+                "twist"
+            ]
+        },
+        {
+            "id": "eight-angle-pose",
+            "title": "Eight-Angle Pose",
+            "category": [
+                "arm-balance",
+                "twist"
+            ]
+        },
+        {
+            "id": "skandasana",
+            "title": "Side Lunge / Half Squat",
+            "category": [
+                "standing",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "high-lunge",
+            "title": "High Lunge / Crescent Lunge",
+            "category": [
+                "standing"
+            ]
+        },
+        {
+            "id": "revolved-high-lunge",
+            "title": "Revolved High Lunge",
+            "category": [
+                "standing",
+                "twist"
+            ]
+        },
+        {
+            "id": "sugarcane-pose",
+            "title": "Sugarcane Pose",
+            "category": [
+                "standing",
+                "backbend"
+            ]
+        },
+        {
+            "id": "revolved-half-moon",
+            "title": "Revolved Half Moon",
+            "category": [
+                "standing",
+                "twist"
+            ]
+        },
+        {
+            "id": "revolved-chair-pose",
+            "title": "Revolved Chair Pose",
+            "category": [
+                "standing",
+                "twist"
+            ]
+        },
+        {
+            "id": "dance-pose",
+            "title": "Lord of the Dance Pose",
+            "category": [
+                "standing",
+                "backbend"
+            ]
+        },
+        {
+            "id": "standing-splits",
+            "title": "Standing Splits",
+            "category": [
+                "standing",
+                "forward-bend"
+            ]
+        },
+        {
+            "id": "fallen-triangle",
+            "title": "Fallen Triangle",
+            "category": [
+                "arm-balance",
+                "twist"
+            ]
+        },
+        {
+            "id": "fire-log-pose",
+            "title": "Fire Log Pose / Double Pigeon",
+            "category": [
+                "seated",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "bird-of-paradise",
+            "title": "Bird of Paradise",
+            "category": [
+                "standing",
+                "hip-opener",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "goddess-pose",
+            "title": "Goddess Pose",
+            "category": [
+                "standing",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "compass-pose",
+            "title": "Compass Pose",
+            "category": [
+                "seated",
+                "hip-opener",
+                "twist"
+            ]
+        },
+        {
+            "id": "reclined-supine-twist",
+            "title": "Reclined Supine Twist",
+            "category": [
+                "supine",
+                "twist",
+                "restorative"
+            ]
+        },
+        {
+            "id": "three-legged-dog",
+            "title": "Three-Legged Down Dog",
+            "category": [
+                "inversion",
+                "standing"
+            ]
+        },
+        {
+            "id": "pendant-pose",
+            "title": "Pendant Pose",
+            "category": [
+                "arm-balance",
+                "core"
+            ]
+        },
+        {
+            "id": "knees-chest-chin",
+            "title": "Eight-Limbed Pose / Knees-Chest-Chin",
+            "category": [
+                "prone",
+                "backbend"
+            ]
+        },
+        {
+            "id": "table-top-pose",
+            "title": "Table Top",
+            "category": [
+                "kneeling"
+            ]
+        },
+        {
+            "id": "reverse-table-top",
+            "title": "Reverse Table Top",
+            "category": [
+                "arm-balance",
+                "backbend"
+            ]
+        },
+        {
+            "id": "reclined-pigeon",
+            "title": "Reclined Pigeon / Eye of the Needle",
+            "category": [
+                "supine",
+                "hip-opener",
+                "restorative"
+            ]
+        },
+        {
+            "id": "thread-the-needle",
+            "title": "Thread the Needle",
+            "category": [
+                "kneeling",
+                "twist",
+                "restorative"
+            ]
+        },
+        {
+            "id": "one-legged-chair",
+            "title": "One-Legged Chair (Figure 4)",
+            "category": [
+                "standing",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "legs-up-the-wall",
+            "title": "Legs-Up-The-Wall",
+            "category": [
+                "inversion",
+                "restorative",
+                "supine"
+            ]
+        },
+        {
+            "id": "dragonfly-pose",
+            "title": "Dragonfly / Grasshopper",
+            "category": [
+                "arm-balance",
+                "twist",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "tripod-headstand",
+            "title": "Tripod Headstand",
+            "category": [
+                "inversion"
+            ]
+        },
+        {
+            "id": "hero-pose",
+            "title": "Hero Pose",
+            "category": [
+                "seated",
+                "kneeling"
+            ]
+        },
+        {
+            "id": "reclined-hero-pose",
+            "title": "Reclined Hero Pose",
+            "category": [
+                "supine",
+                "backbend",
+                "hip-opener"
+            ]
+        },
+        {
+            "id": "thunderbolt-pose",
+            "title": "Thunderbolt Pose",
+            "category": [
+                "seated",
+                "kneeling"
+            ]
+        },
+        {
+            "id": "scorpion-pose",
+            "title": "Scorpion Pose",
+            "category": [
+                "inversion",
+                "backbend",
+                "arm-balance"
+            ]
+        },
+        {
+            "id": "baby-grasshopper",
+            "title": "Baby Grasshopper",
+            "category": [
+                "arm-balance",
+                "twist",
+                "hip-opener"
+            ]
         }
     ]
 }

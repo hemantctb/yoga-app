@@ -424,5 +424,36 @@
             "description": "Creating space in the joints (pulling apart).", 
             "lucide_icon": "MoveDiagonal" 
         }
+    ],
+    "pranayama_categories": [
+        { "id": "balancing", "name": "Balancing", "description": "Harmonizes the nervous system." },
+        { "id": "heating", "name": "Heating / Energizing", "description": "Increases metabolic fire and vitality." },
+        { "id": "cooling", "name": "Cooling / Calming", "description": "Lowers body temperature and stills the mind." },
+        { "id": "cleansing", "name": "Cleansing", "description": "Focuses on purifying the respiratory system." },
+        { "id": "restorative", "name": "Restorative", "description": "Focuses on parasympathetic activation." }
+    ],
+    "mudras": [
+        { "id": "vishnu-mudra", "name": "Vishnu Mudra", "description": "Index and middle fingers folded toward palm." },
+        { "id": "nasagra-mudra", "name": "Nasagra Mudra", "description": "Index and middle fingers resting on the third eye." },
+        { "id": "jnana-mudra", "name": "Jnana Mudra", "description": "Index and thumb touching, palms facing up." },
+        { "id": "chin-mudra", "name": "Chin Mudra", "description": "Index and thumb touching, palms facing down." },
+        { "id": "adi-mudra", "name": "Adi Mudra", "description": "Thumb tucked inside the fist." }
+    ],
+    "bandhas": [
+        { "id": "jalandhara-bandha", "name": "Jalandhara Bandha", "description": "Throat lock." },
+        { "id": "uddiyana-bandha", "name": "Uddiyana Bandha", "description": "Abdominal lock." },
+        { "id": "mula-bandha", "name": "Mula Bandha", "description": "Root lock." },
+        { "id": "maha-bandha", "name": "Maha Bandha", "description": "The Great Lock (all three combined)." }
+    ],
+    "doshas": [
+        { "id": "vata", "name": "Vata", "description": "Air and space elements." },
+        { "id": "pitta", "name": "Pitta", "description": "Fire and water elements." },
+        { "id": "kapha", "name": "Kapha", "description": "Earth and water elements." },
+        { "id": "tridoshic", "name": "Tridoshic", "description": "Balances all three doshas." }
+    ],
+    "gunas": [
+        { "id": "sattvic", "name": "Sattvic", "description": "Pure, harmonious, and clear." },
+        { "id": "rajasic", "name": "Rajasic", "description": "Active, passionate, and mobile." },
+        { "id": "tamasic", "name": "Tamasic", "description": "Still, heavy, and inert." }
     ]
 }

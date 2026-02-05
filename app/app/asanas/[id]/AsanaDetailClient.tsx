@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ArrowLeft,
   Mic,
@@ -19,19 +20,48 @@ import {
   LayoutGrid,
   HandHelping,
   ShieldCheck,
+  User,
+  Bone,
 } from 'lucide-react';
 import type { Asana } from '@/types/asana';
 import { getMuscleName, getChakraName, getDrishtiName } from '@/lib/constants-utils';
+import MobileNav from '@/app/components/MobileNav';
 
 interface AsanaDetailClientProps {
   asana: Asana;
 }
 
-const ALL_SECTIONS = ['script', 'impact', 'anatomy', 'props', 'assists', 'vocabulary'];
+interface ImageStatus {
+  hasHumanImage: boolean;
+  hasAnatomicalImage: boolean;
+  humanImagePath: string | null;
+  anatomicalImagePath: string | null;
+}
+
+const ALL_SECTIONS = ['images', 'script', 'impact', 'anatomy', 'props', 'assists', 'vocabulary'];
 
 export default function AsanaDetailClient({ asana }: AsanaDetailClientProps) {
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['script']));
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['images', 'script']));
   const [isDesktop, setIsDesktop] = useState(false);
+  const [imageStatus, setImageStatus] = useState<ImageStatus | null>(null);
+  const [activeImage, setActiveImage] = useState<'human' | 'anatomical'>('human');
+
+  // Fetch image status
+  const fetchImageStatus = useCallback(async () => {
+    try {
+      const response = await fetch(`/api/generate-images?asanaId=${asana.id}`);
+      if (response.ok) {
+        const data = await response.json();
+        setImageStatus(data);
+      }
+    } catch (error) {
+      console.error('Failed to fetch image status:', error);
+    }
+  }, [asana.id]);
+
+  useEffect(() => {
+    fetchImageStatus();
+  }, [fetchImageStatus]);
 
   useEffect(() => {
     // Check if desktop (lg breakpoint = 1024px)
@@ -43,8 +73,8 @@ export default function AsanaDetailClient({ asana }: AsanaDetailClientProps) {
         // Expand all sections on desktop
         setExpandedSections(new Set(ALL_SECTIONS));
       } else {
-        // Collapse to just script on mobile
-        setExpandedSections(new Set(['script']));
+        // On mobile, always show images and script by default
+        setExpandedSections(new Set(['images', 'script']));
       }
     };
 
@@ -83,6 +113,7 @@ export default function AsanaDetailClient({ asana }: AsanaDetailClientProps) {
           <span className="px-2.5 py-1 bg-primary/10 text-primary text-[10px] font-bold tracking-widest uppercase rounded-full border border-primary/20">
             {asana.difficulty_level}
           </span>
+          <MobileNav currentPath="/asanas" />
         </div>
 
         {/* Titles */}
@@ -159,6 +190,101 @@ export default function AsanaDetailClient({ asana }: AsanaDetailClientProps) {
       </header>
 
       <div className="px-0 py-4 sm:p-4 space-y-4 max-w-5xl mx-auto">
+        {/* POSE IMAGES */}
+        {imageStatus && (imageStatus.hasHumanImage || imageStatus.hasAnatomicalImage) && (
+          <section>
+            <button
+              onClick={() => toggleSection('images')}
+              className="flex items-center justify-between w-full mb-3 px-4 sm:px-0"
+            >
+              <div className="flex items-center gap-2">
+                <h3 className="font-serif text-lg sm:text-xl lg:text-2xl italic text-ink lg:font-semibold">Visual Guide</h3>
+                <div className="h-px bg-sand flex-1"></div>
+              </div>
+            </button>
+
+            {expandedSections.has('images') && (
+              <div className="bg-paper-light sm:rounded-xl border-y sm:border border-sand overflow-hidden shadow-sm">
+                {/* Image Toggle */}
+                {imageStatus.hasHumanImage && imageStatus.hasAnatomicalImage && (
+                  <div className="flex border-b border-sand">
+                    <button
+                      onClick={() => setActiveImage('human')}
+                      className={`flex-1 flex items-center justify-center gap-2 py-3 text-sm font-medium transition-colors ${
+                        activeImage === 'human'
+                          ? 'bg-primary/10 text-primary border-b-2 border-primary'
+                          : 'text-ink-light hover:text-ink hover:bg-paper'
+                      }`}
+                    >
+                      <User size={16} />
+                      <span>Pose</span>
+                    </button>
+                    <button
+                      onClick={() => setActiveImage('anatomical')}
+                      className={`flex-1 flex items-center justify-center gap-2 py-3 text-sm font-medium transition-colors ${
+                        activeImage === 'anatomical'
+                          ? 'bg-accent/10 text-accent border-b-2 border-accent'
+                          : 'text-ink-light hover:text-ink hover:bg-paper'
+                      }`}
+                    >
+                      <Bone size={16} />
+                      <span>Anatomy</span>
+                    </button>
+                  </div>
+                )}
+
+                {/* Image Display */}
+                <div className="relative aspect-square w-full max-w-md mx-auto p-4">
+                  {activeImage === 'human' && imageStatus.hasHumanImage && imageStatus.humanImagePath && (
+                    <Image
+                      src={`/asanas/${asana.id}-human.jpeg`}
+                      alt={`${asana.names.english} pose demonstration`}
+                      fill
+                      className="object-contain rounded-lg"
+                      sizes="(max-width: 768px) 100vw, 400px"
+                    />
+                  )}
+                  {activeImage === 'anatomical' && imageStatus.hasAnatomicalImage && imageStatus.anatomicalImagePath && (
+                    <Image
+                      src={`/asanas/${asana.id}-anatomical.jpeg`}
+                      alt={`${asana.names.english} anatomical illustration`}
+                      fill
+                      className="object-contain rounded-lg"
+                      sizes="(max-width: 768px) 100vw, 400px"
+                    />
+                  )}
+                  {/* Fallback if only one image exists */}
+                  {!imageStatus.hasHumanImage && imageStatus.hasAnatomicalImage && imageStatus.anatomicalImagePath && activeImage === 'human' && (
+                    <Image
+                      src={`/asanas/${asana.id}-anatomical.jpeg`}
+                      alt={`${asana.names.english} anatomical illustration`}
+                      fill
+                      className="object-contain rounded-lg"
+                      sizes="(max-width: 768px) 100vw, 400px"
+                    />
+                  )}
+                  {imageStatus.hasHumanImage && !imageStatus.hasAnatomicalImage && imageStatus.humanImagePath && activeImage === 'anatomical' && (
+                    <Image
+                      src={`/asanas/${asana.id}-human.jpeg`}
+                      alt={`${asana.names.english} pose demonstration`}
+                      fill
+                      className="object-contain rounded-lg"
+                      sizes="(max-width: 768px) 100vw, 400px"
+                    />
+                  )}
+                </div>
+
+                {/* Image Caption */}
+                <div className="px-4 pb-4 text-center">
+                  <p className="text-xs text-ink-light">
+                    {activeImage === 'human' ? 'Pose demonstration' : 'Muscle engagement visualization'}
+                  </p>
+                </div>
+              </div>
+            )}
+          </section>
+        )}
+
         {/* THE SCRIPT (Cueing Blueprint) */}
         <section>
           <button

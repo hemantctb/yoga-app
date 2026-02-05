@@ -1,0 +1,54 @@
+{
+    "pranayamas": [
+        {
+            "id": "nadi-shodhana",
+            "title": "Alternate Nostril Breathing",
+            "category": ["balancing"]
+        },
+        {
+            "id": "ujjayi",
+            "title": "Ocean Breath / Victorious Breath",
+            "category": ["balancing", "heating"]
+        },
+        {
+            "id": "kapalabhati",
+            "title": "Skull Shining Breath",
+            "category": ["cleansing", "heating"]
+        },
+        {
+            "id": "bhastrika",
+            "title": "Bellows Breath",
+            "category": ["heating", "energizing"]
+        },
+        {
+            "id": "sitali",
+            "title": "Cooling Breath",
+            "category": ["cooling"]
+        },
+        {
+            "id": "bhramari",
+            "title": "Humming Bee Breath",
+            "category": ["cooling", "restorative"]
+        },
+        {
+            "id": "surya-bhedana",
+            "title": "Right Nostril Breathing",
+            "category": ["heating", "energizing"]
+        },
+        {
+            "id": "box-breathing",
+            "title": "Box Breathing",
+            "category": ["balancing", "restorative"]
+        },
+        {
+            "id": "4-7-8-breathing",
+            "title": "4-7-8 Relaxing Breath",
+            "category": ["cooling", "restorative"]
+        },
+        {
+            "id": "sitkari",
+            "title": "Hissing Breath",
+            "category": ["cooling"]
+        }
+    ]
+}
